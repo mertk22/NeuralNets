@@ -1,5 +1,6 @@
 #Function to plot loss curves of a model.
 import matplotlib.pyplot as plt
+import numpy as np
 def plot_loss_curves(history):
   epochs = np.arange(len(history["loss"]))
   loss = history["loss"]
